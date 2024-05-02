@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "Agama-start-Flow-6c7e4ff8-13a7-4c69-8607-2c8e8fd85dbd",
+      "type": "start",
+      "sourcePosition": "right",
+      "data": {
+        "id": "Agama-start-Flow-6c7e4ff8-13a7-4c69-8607-2c8e8fd85dbd",
+        "type": "Agama-start-Flow",
+        "position": {
+          "x": 30,
+          "y": 30
+        },
+        "inRepeatBlock": false,
+        "agamaData": {
+          "id": "Agama-start-Flow-6c7e4ff8-13a7-4c69-8607-2c8e8fd85dbd",
+          "type": "Agama-start-Flow",
+          "flowname": "com.kudia.testing",
+          "displayName": "Testing",
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": ""
+        }
+      },
+      "position": {
+        "x": 30,
+        "y": 30
+      }
+    }
+  ]
+}
