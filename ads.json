@@ -14,9 +14,7 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {
-            "com.kudia.mfa": {}
-        },
+        "configs": {},
         "name": "AgamaProject"
     }
 }
