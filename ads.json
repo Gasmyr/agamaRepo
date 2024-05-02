@@ -14,10 +14,11 @@
             "authentication"
         ],
         "noDirectLaunch": [
-            "com.gasmyr.testing"
+            "com.gasmyr.testing.renamed"
         ],
         "configs": {
-            "com.gasmyr.testing": {}
+            "com.gasmyr.testing": {},
+            "com.gasmyr.testing.renamed": {}
         },
         "name": "AgamaProject"
     }
