@@ -14,9 +14,7 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {
-            "com.gasmyr.testone": {}
-        },
+        "configs": {},
         "name": "AgamaProject"
     }
 }
