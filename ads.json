@@ -18,7 +18,8 @@
         ],
         "configs": {
             "com.gasmyr.testing.renamed": {},
-            "com.kudia.mfa": {}
+            "com.kudia.mfa": {},
+            "com.kudia.store": {}
         },
         "name": "AgamaProject"
     }
