@@ -14,11 +14,8 @@
             "authentication"
         ],
         "noDirectLaunch": [
-            "com.gasmyr.testing.renamed"
         ],
         "configs": {
-            "com.gasmyr.testing.renamed": {},
-            "com.kudia.mfa": {},
             "com.kudia.store.new": {}
         },
         "name": "AgamaProject"
