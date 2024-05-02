@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "Agama-start-Flow-5020e46f-3d0d-4588-8516-946dd4a92ca4",
+      "type": "start",
+      "sourcePosition": "right",
+      "data": {
+        "id": "Agama-start-Flow-5020e46f-3d0d-4588-8516-946dd4a92ca4",
+        "type": "Agama-start-Flow",
+        "position": {
+          "x": 30,
+          "y": 30
+        },
+        "inRepeatBlock": false,
+        "agamaData": {
+          "flowname": "com.example.runner",
+          "displayName": "Runner",
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": ""
+        }
+      },
+      "position": {
+        "x": 30,
+        "y": 30
+      }
+    }
+  ]
+}
