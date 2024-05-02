@@ -14,10 +14,12 @@
             "authentication"
         ],
         "noDirectLaunch": [
-            "com.kudia.store.new"
+            "com.gasmyr.testing.renamed",
+            "com.kudia.store.renamed"
         ],
         "configs": {
-            "com.kudia.store.new": {}
+            "com.kudia.store.new": {},
+            "com.kudia.store.renamed": {}
         },
         "name": "AgamaProject"
     }
