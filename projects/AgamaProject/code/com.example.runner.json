@@ -13,6 +13,8 @@
         },
         "inRepeatBlock": false,
         "agamaData": {
+          "id": "Agama-start-Flow-5020e46f-3d0d-4588-8516-946dd4a92ca4",
+          "type": "Agama-start-Flow",
           "flowname": "com.example.runner",
           "displayName": "Runner",
           "isTopLevelFlow": true,
