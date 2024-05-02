@@ -13,7 +13,9 @@
             "jans",
             "authentication"
         ],
-        "noDirectLaunch": [],
+        "noDirectLaunch": [
+            "com.gasmyr.testing"
+        ],
         "configs": {
             "com.gasmyr.testing": {}
         },
