@@ -1,4 +1,0 @@
-Flow com.kudia.store.new
-     Basepath ""
-Log "@info Invalid credentials provided"
-Log "@info Phone number registration done."
