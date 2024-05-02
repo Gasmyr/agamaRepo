@@ -1,2 +1,3 @@
 Flow com.gasmyr.testing
      Basepath ""
+Log "@info Invalid credentials provided"
