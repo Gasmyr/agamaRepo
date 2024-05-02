@@ -1,1 +1,19 @@
-{}
+{
+    "AgamaProject": {
+        "projectName": "AgamaProject",
+        "description": "Agama dev project",
+        "type": "community",
+        "author": "Gasmyr",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/Gasmyr/agamaRepo",
+        "githubUri": "https://github.com/Gasmyr/agamaRepo",
+        "license": "apache-2.0",
+        "lastUpdated": "1714642901013",
+        "tags": [
+            "jans",
+            "authentication"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
+    }
+}
