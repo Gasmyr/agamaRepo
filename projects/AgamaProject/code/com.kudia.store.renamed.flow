@@ -1,0 +1,4 @@
+Flow com.kudia.store.renamed
+     Basepath ""
+Log "@info Invalid credentials provided"
+Log "@info Phone number registration done."
