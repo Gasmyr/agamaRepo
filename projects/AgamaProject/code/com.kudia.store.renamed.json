@@ -105,7 +105,7 @@
 					"type": "Agama-start-Flow",
 					"flowname": "com.kudia.store.renamed",
 					"displayName": "store",
-					"isTopLevelFlow": true,
+					"isTopLevelFlow": false,
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
