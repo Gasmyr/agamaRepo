@@ -67,7 +67,7 @@
 					"id": "Agama-log-Node-bd28317c-5be3-4963-817b-7f31c0981d21",
 					"parentId": "Agama-start-Flow-90150304-3f68-41a6-9141-70a0ba671117",
 					"type": "Agama-log-Node",
-					"displayName": "",
+					"displayName": "One",
 					"hasComment": true,
 					"comment": "",
 					"whenCondition": "WhenFalse",
@@ -79,7 +79,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230,
@@ -165,8 +165,8 @@
 		}
 	],
 	"viewport": {
-		"x": 41,
-		"y": 166,
+		"x": 10,
+		"y": 270,
 		"zoom": 0.75
 	}
 }
