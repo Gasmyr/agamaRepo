@@ -14,7 +14,8 @@
             "authentication"
         ],
         "noDirectLaunch": [
-            "com.gasmyr.testing.renamed"
+            "com.gasmyr.testing.renamed",
+            "com.kudia.store.renamed"
         ],
         "configs": {
             "com.kudia.store.renamed": {}
