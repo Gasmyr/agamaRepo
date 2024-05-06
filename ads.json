@@ -17,7 +17,8 @@
             "com.gasmyr.testing.renamed"
         ],
         "configs": {
-            "com.kudia.store.old": {}
+            "com.kudia.store.old": {},
+            "com.kudia.store": {}
         },
         "name": "AgamaProject"
     }
