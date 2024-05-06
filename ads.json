@@ -18,7 +18,8 @@
             "com.kudia.store.renamed"
         ],
         "configs": {
-            "com.kudia.store.renamed": {}
+            "com.kudia.store.renamed": {},
+            "com.kudia.store": {}
         },
         "name": "AgamaProject"
     }
