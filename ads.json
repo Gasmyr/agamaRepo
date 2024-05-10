@@ -14,7 +14,8 @@
             "authentication"
         ],
         "noDirectLaunch": [
-            "com.kudia.store.new"
+            "com.kudia.store.new",
+            "com.sample.redo"
         ],
         "configs": {
             "com.kudia.store.new": {},
