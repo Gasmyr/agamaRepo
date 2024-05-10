@@ -31,11 +31,12 @@
 					"logMessage": "\"Invalid credentials provided\"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"width": 170,
 			"height": 124,
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230,
@@ -60,7 +61,7 @@
 					"displayName": "Redo",
 					"hasComment": true,
 					"comment": "",
-					"isTopLevelFlow": true,
+					"isTopLevelFlow": false,
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
@@ -77,7 +78,7 @@
 			},
 			"width": 170,
 			"height": 124,
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
