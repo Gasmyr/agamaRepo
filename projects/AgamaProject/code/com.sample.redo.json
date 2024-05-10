@@ -61,7 +61,7 @@
 					"displayName": "Redo",
 					"hasComment": true,
 					"comment": "",
-					"isTopLevelFlow": true,
+					"isTopLevelFlow": false,
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
