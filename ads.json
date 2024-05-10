@@ -13,9 +13,7 @@
             "jans",
             "authentication"
         ],
-        "noDirectLaunch": [
-            "com.kudia.store.new"
-        ],
+        "noDirectLaunch": [],
         "configs": {
             "com.kudia.store.new": {},
             "com.sample.redo": {}
