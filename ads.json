@@ -13,9 +13,7 @@
             "jans",
             "authentication"
         ],
-        "noDirectLaunch": [
-            "com.gasmyr.testing.renamed"
-        ],
+        "noDirectLaunch": [],
         "configs": {
             "com.kudia.store.new": {},
             "com.sample.redo": {}
