@@ -15,11 +15,13 @@
         ],
         "noDirectLaunch": [
             "com.kudia.store.new",
-            "com.sample.redo"
+            "com.sample.redo",
+            "com.sample.redo2"
         ],
         "configs": {
             "com.kudia.store.new": {},
-            "com.sample.redo": {}
+            "com.sample.redo": {},
+            "com.sample.redo2": {}
         },
         "name": "AgamaProject"
     }
