@@ -19,7 +19,8 @@
         ],
         "configs": {
             "com.kudia.store.new": {},
-            "com.sample.redo2": {}
+            "com.sample.redo2": {},
+            "com.gasmyr.testing": {}
         },
         "name": "AgamaProject"
     }
