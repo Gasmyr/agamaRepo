@@ -159,14 +159,15 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"Phone number registration done.\"",
+					"logLevel": "info",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": true
 			},
-			"width": 170,
-			"height": 124,
-			"selected": false,
+			"width": 168,
+			"height": 120,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 650.6666666666667,
 				"y": 32
@@ -214,7 +215,7 @@
 			},
 			"width": 170,
 			"height": 124,
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 880,
@@ -297,8 +298,8 @@
 		}
 	],
 	"viewport": {
-		"x": -64,
-		"y": 248,
+		"x": 10,
+		"y": 270,
 		"zoom": 0.75
 	}
 }
