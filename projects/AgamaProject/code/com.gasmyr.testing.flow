@@ -5,7 +5,7 @@ Call Utils#run
 Log "@info Phone number registration done."
 rest = Trigger com.kudia.store.new 
 When rest is "true"
-     Log "@ " __________
+     Log "@error Invalid credentials provided"
 Otherwise
-     Log "@ " __________
-Log "@ " __________
+     Log "@debug Phone number registration done."
+Log "@error Phone number registration done."
