@@ -29,17 +29,20 @@
 					"whenCondition": "WhenFalse",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"Phone number registration done.\"",
+					"logLevel": "error",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"width": 170,
 			"height": 124,
 			"positionAbsolute": {
 				"x": 1488.6666666666665,
 				"y": 80
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "Agama-log-Node-7f42b597-ad39-4d35-b3dc-2dab5c547a35",
@@ -70,17 +73,20 @@
 					"whenCondition": "Otherwise",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"Phone number registration done.\"",
+					"logLevel": "debug",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"width": 170,
 			"height": 124,
 			"positionAbsolute": {
 				"x": 1492.6666666666665,
 				"y": -211
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "Agama-log-Node-97ea24c9-b54c-44cf-96d0-a43cb5676826",
@@ -111,17 +117,20 @@
 					"whenCondition": "WhenTrue",
 					"inRepeatBlock": false,
 					"inIterateBlock": false,
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"Invalid credentials provided\"",
+					"logLevel": "error",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": true
 			},
-			"width": 170,
-			"height": 124,
+			"width": 168,
+			"height": 120,
 			"positionAbsolute": {
 				"x": 1493.6666666666665,
 				"y": 364
-			}
+			},
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "Agama-when-Node-ff40467b-0320-41c1-89cc-46a1342776d8",
@@ -160,11 +169,12 @@
 				"handles": [
 					"Agama-when-Node-ff40467b-0320-41c1-89cc-46a1342776d8.FAILURE",
 					"Agama-when-Node-ff40467b-0320-41c1-89cc-46a1342776d8.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"width": 110,
 			"height": 60,
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1159.3333333333333,
