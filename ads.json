@@ -20,7 +20,8 @@
         "configs": {
             "com.kudia.store.new": {},
             "com.sample.redo2": {},
-            "com.gasmyr.testing": {}
+            "com.gasmyr.testing": {},
+            "com.design.newFlow": {}
         },
         "name": "AgamaProject"
     }
