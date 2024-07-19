@@ -14,6 +14,9 @@
             "community"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "com.testing.newflow": {}
+        },
+        "name": "NewFlowDesignproject"
     }
 }
