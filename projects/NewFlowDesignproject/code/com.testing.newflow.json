@@ -1,34 +1,91 @@
 {
-  "nodes": [
-    {
-      "id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
-      "type": "startNode",
-      "sourcePosition": "right",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "data": {
-        "id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
-        "type": "startNode",
-        "position": {
-          "x": 30,
-          "y": 40
-        },
-        "agamaData": {
-          "isTopLevelFlow": true,
-          "basepath": "",
-          "configParams": "{}",
-          "nodeIcon": "material-symbols:line-start-square",
-          "timeout": "",
-          "inputs": "",
-          "configs": "",
-          "flowname": "com.testing.newflow",
-          "displayName": "Newflow",
-          "hasComment": true,
-          "comment": ""
-        }
-      }
-    }
-  ]
+	"nodes": [
+		{
+			"id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"data": {
+				"id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "com.testing.newflow",
+					"displayName": "Newflow",
+					"hasComment": true,
+					"comment": ""
+				},
+				"skake": false
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			}
+		},
+		{
+			"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
+			"type": "logNode",
+			"position": {
+				"x": 555,
+				"y": 180
+			},
+			"data": {
+				"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
+				"type": "logNode",
+				"position": {
+					"x": 555,
+					"y": 180
+				},
+				"previousNodeId": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
+				"agamaData": {
+					"logMessage": "",
+					"logLevel": "",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370-logNode-f6f973be-6e06-4950-a015-dead5b6156e6}",
+			"type": "default",
+			"source": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
+			"target": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"sourceHandle": "source_startNode-4829d6aa-23c7-48a8-94f0-88b00f362370"
+		}
+	],
+	"viewport": {
+		"x": 0,
+		"y": 0,
+		"zoom": 1
+	}
 }
