@@ -1,6 +1,31 @@
 {
 	"nodes": [
 		{
+			"id": "noteNode-cac81dc3-c183-46b0-9793-bf596bd7a2cc",
+			"position": {
+				"x": 0,
+				"y": -17.5
+			},
+			"type": "noteNode",
+			"data": {
+				"id": "noteNode-cac81dc3-c183-46b0-9793-bf596bd7a2cc",
+				"type": "noteNode",
+				"agamaData": {
+					"noteText": "Start node for the current flow"
+				},
+				"position": {
+					"x": 300,
+					"y": 260
+				}
+			},
+			"measured": {
+				"width": 258,
+				"height": 30
+			},
+			"selected": true,
+			"dragging": false
+		},
+		{
 			"id": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
 			"type": "startNode",
 			"sourcePosition": "right",
@@ -87,8 +112,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
+		"x": 83,
+		"y": 123,
 		"zoom": 1
 	}
 }
