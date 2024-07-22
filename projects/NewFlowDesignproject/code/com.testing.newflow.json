@@ -20,20 +20,21 @@
 					"basepath": "",
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-start-square",
-					"timeout": "",
+					"timeout": "500",
 					"inputs": "",
-					"configs": "",
+					"configs": "conf",
 					"flowname": "com.testing.newflow",
 					"displayName": "Newflow",
 					"hasComment": true,
-					"comment": ""
+					"comment": "description edited"
 				},
 				"skake": false
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
@@ -51,21 +52,23 @@
 				},
 				"previousNodeId": "startNode-4829d6aa-23c7-48a8-94f0-88b00f362370",
 				"agamaData": {
-					"logMessage": "",
-					"logLevel": "",
+					"logMessage": "\"Invalid credentials provided\"",
+					"logLevel": "warn",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
 					"titleColor": "",
 					"descColor": "",
-					"displayName": "",
+					"displayName": "Log node",
 					"hasComment": true,
-					"comment": ""
-				}
+					"comment": "my log node"
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		}
 	],
 	"edges": [
