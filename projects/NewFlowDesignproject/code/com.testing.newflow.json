@@ -171,7 +171,8 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": "check if expetion happen"
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 110,
@@ -205,7 +206,8 @@
 					"displayName": "Phone Registered",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -244,7 +246,8 @@
 					"hasComment": true,
 					"comment": "",
 					"asssignedVariableName": "parseReset"
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -281,6 +284,109 @@
 					"titleColor": "",
 					"descColor": "",
 					"displayName": "Assign variables",
+					"hasComment": true,
+					"comment": ""
+				},
+				"skake": false
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
+		},
+		{
+			"id": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+			"type": "repeatNode",
+			"position": {
+				"x": 1538,
+				"y": 132
+			},
+			"data": {
+				"id": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+				"type": "repeatNode",
+				"position": {
+					"x": 1590,
+					"y": 195
+				},
+				"previousNodeId": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d",
+				"agamaData": {
+					"nodeIcon": "material-symbols:event-repeat-outline-rounded",
+					"maxIteration": "5",
+					"maxIterationVariableName": "",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "REP",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-8d977779-e8fc-4c92-9e55-a0c63416cd4f",
+			"type": "logNode",
+			"position": {
+				"x": 1650,
+				"y": 375
+			},
+			"data": {
+				"id": "logNode-8d977779-e8fc-4c92-9e55-a0c63416cd4f",
+				"type": "logNode",
+				"position": {
+					"x": 1650,
+					"y": 375
+				},
+				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+				"branching": "repeat",
+				"agamaData": {
+					"logMessage": "\"Repeating something\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Repeat ",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
+		},
+		{
+			"id": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
+			"type": "rfacNode",
+			"position": {
+				"x": 1920,
+				"y": 180
+			},
+			"data": {
+				"id": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
+				"type": "rfacNode",
+				"position": {
+					"x": 1920,
+					"y": 180
+				},
+				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+				"branching": "continue",
+				"agamaData": {
+					"nodeIcon": "ic:baseline-insert-link",
+					"idpAuthEndpoint": "https://www.gasmyr.com/call",
+					"assignCallbackResult": "rffResult",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "call rfac",
 					"hasComment": true,
 					"comment": ""
 				}
@@ -370,11 +476,50 @@
 			"labelBgBorderRadius": 4,
 			"label": "otherwise",
 			"sourceHandle": "source_whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c_otherwise"
+		},
+		{
+			"id": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d-repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1}",
+			"type": "default",
+			"source": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d",
+			"target": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"sourceHandle": "source_callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d}"
+		},
+		{
+			"id": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1-logNode-8d977779-e8fc-4c92-9e55-a0c63416cd4f}",
+			"type": "default",
+			"source": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+			"target": "logNode-8d977779-e8fc-4c92-9e55-a0c63416cd4f",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "repeat",
+			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_repeat"
+		},
+		{
+			"id": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1-rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6}",
+			"type": "default",
+			"source": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+			"target": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue"
 		}
 	],
 	"viewport": {
-		"x": -549,
-		"y": 146,
+		"x": -1265,
+		"y": 28,
 		"zoom": 1
 	}
 }
