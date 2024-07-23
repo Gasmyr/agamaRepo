@@ -16,13 +16,14 @@
 				"position": {
 					"x": 300,
 					"y": 260
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 258,
 				"height": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -65,8 +66,8 @@
 			"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
 			"type": "logNode",
 			"position": {
-				"x": 555,
-				"y": 180
+				"x": 285,
+				"y": 84
 			},
 			"data": {
 				"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
@@ -93,7 +94,46 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
+			"type": "callNode",
+			"position": {
+				"x": 690,
+				"y": 210
+			},
+			"data": {
+				"id": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
+				"type": "callNode",
+				"position": {
+					"x": 690,
+					"y": 210
+				},
+				"previousNodeId": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
+				"agamaData": {
+					"javaClassName": "Utils",
+					"javaMethodName": "parseInt",
+					"javaVariableName": "",
+					"exceptionVariableField": "",
+					"callType": "Call static method",
+					"arguments": [],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "call reset",
+					"hasComment": true,
+					"comment": "",
+					"asssignedVariableName": "exception"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -109,11 +149,24 @@
 			"labelBgBorderRadius": 4,
 			"label": "",
 			"sourceHandle": "source_startNode-4829d6aa-23c7-48a8-94f0-88b00f362370"
+		},
+		{
+			"id": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6-callNode-f30cd6f0-8339-474a-943d-68ed18bbe153}",
+			"type": "default",
+			"source": "logNode-f6f973be-6e06-4950-a015-dead5b6156e6",
+			"target": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"sourceHandle": "source_logNode-f6f973be-6e06-4950-a015-dead5b6156e6"
 		}
 	],
 	"viewport": {
-		"x": 83,
-		"y": 123,
+		"x": 0,
+		"y": 0,
 		"zoom": 1
 	}
 }
