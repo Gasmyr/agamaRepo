@@ -101,8 +101,8 @@
 			"id": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
 			"type": "callNode",
 			"position": {
-				"x": 690,
-				"y": 210
+				"x": 524,
+				"y": 107
 			},
 			"data": {
 				"id": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
@@ -127,13 +127,169 @@
 					"hasComment": true,
 					"comment": "",
 					"asssignedVariableName": "exception"
+				},
+				"skake": false
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+			"type": "whenNode",
+			"position": {
+				"x": 840,
+				"y": 150
+			},
+			"data": {
+				"id": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+				"type": "whenNode",
+				"position": {
+					"x": 840,
+					"y": 150
+				},
+				"previousNodeId": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
+				"agamaData": {
+					"variableField": "",
+					"valueField": "",
+					"conditionInputField": "",
+					"conditions": [
+						{
+							"variable": "exception",
+							"operator": "is not",
+							"dataValue": "null",
+							"combinator": "none"
+						}
+					],
+					"nodeIcon": "ph:swap",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "check if expetion happen"
+				}
+			},
+			"measured": {
+				"width": 110,
+				"height": 60
+			},
+			"selected": false
+		},
+		{
+			"id": "logNode-2ba91f7c-21f6-4b5d-bb13-e1aa25086fdb",
+			"type": "logNode",
+			"position": {
+				"x": 1050,
+				"y": 360
+			},
+			"data": {
+				"id": "logNode-2ba91f7c-21f6-4b5d-bb13-e1aa25086fdb",
+				"type": "logNode",
+				"position": {
+					"x": 1050,
+					"y": 360
+				},
+				"previousNodeId": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+				"branching": "success",
+				"agamaData": {
+					"logMessage": "\"Phone number registration done.\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Phone Registered",
+					"hasComment": true,
+					"comment": ""
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
+		},
+		{
+			"id": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d",
+			"type": "callNode",
+			"position": {
+				"x": 1200,
+				"y": 135
+			},
+			"data": {
+				"id": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d",
+				"type": "callNode",
+				"position": {
+					"x": 1200,
+					"y": 135
+				},
+				"previousNodeId": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+				"branching": "continue",
+				"agamaData": {
+					"javaClassName": "Utils",
+					"javaMethodName": "parse",
+					"javaVariableName": "",
+					"exceptionVariableField": "",
+					"callType": "Call static method",
+					"arguments": [],
+					"nodeIcon": "material-symbols:code",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "call parser",
+					"hasComment": true,
+					"comment": "",
+					"asssignedVariableName": "parseReset"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
+		},
+		{
+			"id": "assignmentNode-42bde234-1987-4c21-9e7c-f5c179ef4557",
+			"type": "assignmentNode",
+			"position": {
+				"x": 1110,
+				"y": -60
+			},
+			"data": {
+				"id": "assignmentNode-42bde234-1987-4c21-9e7c-f5c179ef4557",
+				"type": "assignmentNode",
+				"position": {
+					"x": 1110,
+					"y": -60
+				},
+				"previousNodeId": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+				"branching": "otherwise",
+				"agamaData": {
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "Gasmyr",
+							"assignedVariableName": "username"
+						}
+					],
+					"nodeIcon": "material-symbols:equal",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Assign variables",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false
 		}
 	],
 	"edges": [
@@ -162,11 +318,63 @@
 			"labelBgBorderRadius": 4,
 			"label": "",
 			"sourceHandle": "source_logNode-f6f973be-6e06-4950-a015-dead5b6156e6"
+		},
+		{
+			"id": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153-whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c}",
+			"type": "default",
+			"source": "callNode-f30cd6f0-8339-474a-943d-68ed18bbe153",
+			"target": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"sourceHandle": "source_callNode-f30cd6f0-8339-474a-943d-68ed18bbe153}"
+		},
+		{
+			"id": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c-logNode-2ba91f7c-21f6-4b5d-bb13-e1aa25086fdb}",
+			"type": "default",
+			"source": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+			"target": "logNode-2ba91f7c-21f6-4b5d-bb13-e1aa25086fdb",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "success",
+			"sourceHandle": "source_whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c_success"
+		},
+		{
+			"id": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c-callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d}",
+			"type": "default",
+			"source": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+			"target": "callNode-a81e8536-adb3-4b13-89c0-f9e9bf283c0d",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"sourceHandle": "source_whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c_continue"
+		},
+		{
+			"id": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c-assignmentNode-42bde234-1987-4c21-9e7c-f5c179ef4557}",
+			"type": "default",
+			"source": "whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c",
+			"target": "assignmentNode-42bde234-1987-4c21-9e7c-f5c179ef4557",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "otherwise",
+			"sourceHandle": "source_whenNode-53e0852f-5ab8-4e02-bec5-ccc42ba0832c_otherwise"
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
+		"x": -549,
+		"y": 146,
 		"zoom": 1
 	}
 }
