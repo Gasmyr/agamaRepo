@@ -428,7 +428,8 @@
 					"comment": "",
 					"nodeIcon": "ph:swap",
 					"iterateUsing": "stranger"
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 105,
@@ -463,14 +464,49 @@
 					"displayName": "log info",
 					"hasComment": true,
 					"comment": ""
+				},
+				"skake": false
+			},
+			"measured": {
+				"width": 170,
+				"height": 124
+			},
+			"selected": false,
+			"dragging": false
+		},
+		{
+			"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+			"type": "logNode",
+			"position": {
+				"x": 2490,
+				"y": 150
+			},
+			"data": {
+				"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+				"type": "logNode",
+				"position": {
+					"x": 2490,
+					"y": 150
+				},
+				"previousNodeId": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+				"branching": "continue",
+				"agamaData": {
+					"logMessage": "\"Contine my way.\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "Cont",
+					"hasComment": true,
+					"comment": ""
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
-			"dragging": false
+			"selected": true
 		}
 	],
 	"edges": [
@@ -616,11 +652,24 @@
 			"labelBgBorderRadius": 4,
 			"label": "iterate",
 			"sourceHandle": "source_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8_iterate"
+		},
+		{
+			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8-logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b}",
+			"type": "default",
+			"source": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+			"target": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "continue",
+			"sourceHandle": "source_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8_continue"
 		}
 	],
 	"viewport": {
-		"x": -1858,
-		"y": -33,
+		"x": -1773,
+		"y": 8,
 		"zoom": 1
 	}
 }
