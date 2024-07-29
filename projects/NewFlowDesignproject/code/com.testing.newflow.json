@@ -432,8 +432,8 @@
 				"skake": false
 			},
 			"measured": {
-				"width": 105,
-				"height": 80
+				"width": 170,
+				"height": 124
 			},
 			"selected": false,
 			"dragging": false
@@ -500,7 +500,8 @@
 					"displayName": "Cont",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -668,8 +669,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1773,
-		"y": 8,
+		"x": 0,
+		"y": 0,
 		"zoom": 1
 	}
 }
