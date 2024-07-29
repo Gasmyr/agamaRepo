@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "startNode-29274570-57be-4f08-b36b-792f9998368a",
+      "type": "startNode",
+      "sourcePosition": "right",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "data": {
+        "id": "startNode-29274570-57be-4f08-b36b-792f9998368a",
+        "type": "startNode",
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "agamaData": {
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": "",
+          "flowname": "com.gasmyr.otp",
+          "displayName": "OTP",
+          "hasComment": true,
+          "comment": ""
+        }
+      }
+    }
+  ]
+}
