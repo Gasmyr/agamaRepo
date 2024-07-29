@@ -366,42 +366,6 @@
 			"selected": false
 		},
 		{
-			"id": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
-			"type": "rfacNode",
-			"position": {
-				"x": 1884,
-				"y": 128
-			},
-			"data": {
-				"id": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
-				"type": "rfacNode",
-				"position": {
-					"x": 1920,
-					"y": 180
-				},
-				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
-				"branching": "continue",
-				"agamaData": {
-					"nodeIcon": "ic:baseline-insert-link",
-					"idpAuthEndpoint": "https://www.gasmyr.com",
-					"assignCallbackResult": "rffResult",
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "call rfac",
-					"hasComment": true,
-					"comment": ""
-				},
-				"skake": true
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			},
-			"selected": true,
-			"dragging": false
-		},
-		{
 			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
 			"type": "iterateOverNode",
 			"position": {
@@ -415,7 +379,7 @@
 					"x": 2295,
 					"y": 165
 				},
-				"previousNodeId": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
+				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
 				"agamaData": {
 					"iterateOn": "username",
 					"iterateAs": "",
@@ -616,32 +580,6 @@
 			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_repeat"
 		},
 		{
-			"id": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1-rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6}",
-			"type": "default",
-			"source": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
-			"target": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "continue",
-			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue"
-		},
-		{
-			"id": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6-iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8}",
-			"type": "default",
-			"source": "rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6",
-			"target": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "",
-			"sourceHandle": "source_rfacNode-f158a33e-68e8-480d-91a4-35b3dfd400b6"
-		},
-		{
 			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8-logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9}",
 			"type": "default",
 			"source": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
@@ -666,11 +604,29 @@
 			"labelBgBorderRadius": 4,
 			"label": "continue",
 			"sourceHandle": "source_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8_continue"
+		},
+		{
+			"source": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
+			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue",
+			"target": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+			"targetHandle": "target_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+			"label": "continue",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"id": "xy-edge__repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue-iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8target_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8"
 		}
 	],
 	"viewport": {
-		"x": -1664,
-		"y": -20,
+		"x": -1637,
+		"y": -49,
 		"zoom": 1
 	}
 }
