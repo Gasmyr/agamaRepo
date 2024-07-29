@@ -15,8 +15,7 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "com.testing.newflow": {},
-            "com.newtesting.Runing": {}
+            "com.testing.newflow": {}
         },
         "name": "NewFlowDesignproject"
     }
