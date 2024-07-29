@@ -15,8 +15,7 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "com.testing.newflow": {},
-            "com.exmple.otp": {}
+            "com.testing.newflow": {}
         },
         "name": "NewFlowDesignproject"
     }
