@@ -383,7 +383,7 @@
 				"branching": "continue",
 				"agamaData": {
 					"nodeIcon": "ic:baseline-insert-link",
-					"idpAuthEndpoint": "www.gasmyr.com/index.html",
+					"idpAuthEndpoint": "https://www.gasmyr.com",
 					"assignCallbackResult": "rffResult",
 					"nodeColor": "",
 					"titleColor": "",
