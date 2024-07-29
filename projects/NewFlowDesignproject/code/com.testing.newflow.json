@@ -383,7 +383,7 @@
 				"branching": "continue",
 				"agamaData": {
 					"nodeIcon": "ic:baseline-insert-link",
-					"idpAuthEndpoint": "www.gasmyr.com/call",
+					"idpAuthEndpoint": "www.gasmyr.com/index.html",
 					"assignCallbackResult": "rffResult",
 					"nodeColor": "",
 					"titleColor": "",
@@ -669,8 +669,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1735,
-		"y": -3,
+		"x": -1664,
+		"y": -20,
 		"zoom": 1
 	}
 }
