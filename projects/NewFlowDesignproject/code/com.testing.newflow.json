@@ -383,7 +383,7 @@
 				"branching": "continue",
 				"agamaData": {
 					"nodeIcon": "ic:baseline-insert-link",
-					"idpAuthEndpoint": "https://www.gasmyr.com/call",
+					"idpAuthEndpoint": "ww.gasmyr.com/call",
 					"assignCallbackResult": "rffResult",
 					"nodeColor": "",
 					"titleColor": "",
@@ -392,13 +392,13 @@
 					"hasComment": true,
 					"comment": ""
 				},
-				"skake": false
+				"skake": true
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -507,7 +507,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		}
 	],
 	"edges": [
@@ -669,8 +669,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
-		"zoom": 1
+		"x": -673.3842712506053,
+		"y": 147.83506937911727,
+		"zoom": 0.5
 	}
 }
