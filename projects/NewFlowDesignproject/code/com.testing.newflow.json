@@ -370,8 +370,8 @@
 			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
 			"type": "iterateOverNode",
 			"position": {
-				"x": 2172,
-				"y": 131
+				"x": 1840,
+				"y": 127
 			},
 			"data": {
 				"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
@@ -407,8 +407,8 @@
 			"id": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
 			"type": "logNode",
 			"position": {
-				"x": 2304,
-				"y": 397
+				"x": 2064,
+				"y": 361
 			},
 			"data": {
 				"id": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
@@ -443,8 +443,8 @@
 			"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
 			"type": "logNode",
 			"position": {
-				"x": 2490,
-				"y": 150
+				"x": 2186,
+				"y": 110
 			},
 			"data": {
 				"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
@@ -472,7 +472,8 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false
+			"selected": true,
+			"dragging": false
 		}
 	],
 	"edges": [
@@ -626,8 +627,8 @@
 		}
 	],
 	"viewport": {
-		"x": 62.16136018664599,
-		"y": 145.08342055444078,
+		"x": 26.109595248311734,
+		"y": 142.24416778397546,
 		"zoom": 0.5
 	}
 }
