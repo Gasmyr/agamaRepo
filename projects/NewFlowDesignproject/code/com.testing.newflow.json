@@ -383,7 +383,7 @@
 				"previousNodeId": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
 				"branching": "iterate",
 				"agamaData": {
-					"logMessage": "\"Iterating \"",
+					"logMessage": "\"next \"",
 					"logLevel": "info",
 					"nodeIcon": "octicon:log-16",
 					"nodeColor": "",
@@ -391,7 +391,7 @@
 					"descColor": "",
 					"displayName": "log info",
 					"hasComment": true,
-					"comment": ""
+					"comment": "my way"
 				},
 				"skake": false
 			},
@@ -399,7 +399,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -427,7 +427,7 @@
 					"descColor": "",
 					"displayName": "Cont",
 					"hasComment": true,
-					"comment": ""
+					"comment": "Contine my way"
 				},
 				"skake": false
 			},
@@ -582,8 +582,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1181,
-		"y": 10,
+		"x": -1495,
+		"y": 29,
 		"zoom": 1
 	}
 }
