@@ -367,48 +367,11 @@
 			"selected": false
 		},
 		{
-			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-			"type": "iterateOverNode",
-			"position": {
-				"x": 1840,
-				"y": 127
-			},
-			"data": {
-				"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-				"type": "iterateOverNode",
-				"position": {
-					"x": 2295,
-					"y": 165
-				},
-				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
-				"agamaData": {
-					"iterateOn": "username",
-					"iterateAs": "",
-					"iterateResult": "y",
-					"nodeColor": "",
-					"titleColor": "",
-					"descColor": "",
-					"displayName": "iter",
-					"hasComment": true,
-					"comment": "",
-					"nodeIcon": "ph:swap",
-					"iterateUsing": "stranger"
-				},
-				"skake": false
-			},
-			"measured": {
-				"width": 170,
-				"height": 124
-			},
-			"selected": false,
-			"dragging": false
-		},
-		{
 			"id": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
 			"type": "logNode",
 			"position": {
-				"x": 2064,
-				"y": 361
+				"x": 2213,
+				"y": 112
 			},
 			"data": {
 				"id": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
@@ -417,7 +380,7 @@
 					"x": 2280,
 					"y": 405
 				},
-				"previousNodeId": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+				"previousNodeId": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
 				"branching": "iterate",
 				"agamaData": {
 					"logMessage": "\"Iterating \"",
@@ -436,15 +399,15 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
 			"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
 			"type": "logNode",
 			"position": {
-				"x": 2186,
-				"y": 110
+				"x": 1907,
+				"y": 121
 			},
 			"data": {
 				"id": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
@@ -453,7 +416,7 @@
 					"x": 2490,
 					"y": 150
 				},
-				"previousNodeId": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+				"previousNodeId": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
 				"branching": "continue",
 				"agamaData": {
 					"logMessage": "\"Contine my way.\"",
@@ -472,7 +435,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -582,36 +545,10 @@
 			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_repeat"
 		},
 		{
-			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8-logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9}",
-			"type": "default",
-			"source": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-			"target": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "iterate",
-			"sourceHandle": "source_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8_iterate"
-		},
-		{
-			"id": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8-logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b}",
-			"type": "default",
-			"source": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-			"target": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
-			"labelBgPadding": [
-				8,
-				4
-			],
-			"labelBgBorderRadius": 4,
-			"label": "continue",
-			"sourceHandle": "source_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8_continue"
-		},
-		{
 			"source": "repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1",
 			"sourceHandle": "source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue",
-			"target": "iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
-			"targetHandle": "target_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8",
+			"target": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+			"targetHandle": "target_logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
 			"label": "continue",
 			"labelBgPadding": [
 				8,
@@ -623,12 +560,30 @@
 				"color": "#ffffff",
 				"fillOpacity": 0.7
 			},
-			"id": "xy-edge__repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue-iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8target_iterateOverNode-39e181f2-3265-40fa-a638-1d00d0af2ef8"
+			"id": "xy-edge__repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1source_repeatNode-8838b3ab-d4bc-46da-9d39-0b220c550eb1_continue-logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453btarget_logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b"
+		},
+		{
+			"source": "logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+			"sourceHandle": "source_logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b",
+			"target": "logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
+			"targetHandle": "target_logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"id": "xy-edge__logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453bsource_logNode-14490c3c-b1ac-436d-8fad-ff1ee55d453b-logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9target_logNode-cfc2572d-845a-4da8-b990-cf2ab88e18e9"
 		}
 	],
 	"viewport": {
-		"x": 26.109595248311734,
-		"y": 142.24416778397546,
-		"zoom": 0.5
+		"x": -1181,
+		"y": 10,
+		"zoom": 1
 	}
 }
