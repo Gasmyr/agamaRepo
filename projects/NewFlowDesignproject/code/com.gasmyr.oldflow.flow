@@ -1,2 +1,4 @@
 Flow com.gasmyr.oldflow
      Basepath ""
+Log "@info Invalid credentials provided"
+Log "@info Phone number registration done."
