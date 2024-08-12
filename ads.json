@@ -16,7 +16,8 @@
         "noDirectLaunch": [],
         "configs": {
             "com.testing.newflow": {},
-            "com.example.otp": {}
+            "com.example.otp": {},
+            "org.gluu.agama.smtp.main.12.08.2024": {}
         },
         "name": "NewFlowDesignproject"
     }
