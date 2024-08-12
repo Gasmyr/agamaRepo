@@ -19,7 +19,8 @@
             "com.example.otp": {},
             "org.gluu.agama.passkey.nickname.12.08.2024": {},
             "org.gluu.agama.passkey.list.12.08.2024": {},
-            "org.gluu.agama.passkey.add.12.08.2024": {}
+            "org.gluu.agama.passkey.add.12.08.2024": {},
+            "org.gluu.agama.totp.main.12.08.2024": {}
         },
         "name": "NewFlowDesignproject"
     }
