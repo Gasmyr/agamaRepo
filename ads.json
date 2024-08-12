@@ -17,7 +17,8 @@
         "configs": {
             "com.testing.newflow": {},
             "com.example.otp": {},
-            "org.gluu.agama.passkey.main.12.08.2024": {}
+            "org.gluu.agama.passkey.main.12.08.2024": {},
+            "org.gluu.agama.passkey.nickname.12.08.2024": {}
         },
         "name": "NewFlowDesignproject"
     }
