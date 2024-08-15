@@ -15,7 +15,6 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "com.testing.newflow": {},
             "org.gluu.agama.passkey.nickname.12.08.2024": {},
             "org.gluu.agama.passkey.list.12.08.2024": {},
             "com.gasmyr.oldflow": {},
