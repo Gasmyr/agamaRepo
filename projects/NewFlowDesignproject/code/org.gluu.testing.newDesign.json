@@ -63,7 +63,8 @@
 					"displayName": "LOG ONE",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -102,7 +103,8 @@
 					"displayName": "Assign",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -130,7 +132,14 @@
 					"variableField": "",
 					"valueField": "",
 					"conditionInputField": "",
-					"conditions": [],
+					"conditions": [
+						{
+							"variable": "username",
+							"operator": "is",
+							"dataValue": "\"john\"",
+							"combinator": "none"
+						}
+					],
 					"nodeIcon": "ph:swap",
 					"nodeColor": "",
 					"titleColor": "",
@@ -138,7 +147,8 @@
 					"displayName": "",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": true
 			},
 			"measured": {
 				"width": 110,
@@ -179,7 +189,8 @@
 					"displayName": "CALL",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -213,7 +224,8 @@
 					"displayName": "Log fail",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -248,7 +260,8 @@
 					"displayName": "NextOne",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -282,7 +295,8 @@
 					"displayName": "NextTwo",
 					"hasComment": true,
 					"comment": ""
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
@@ -317,13 +331,14 @@
 					"returnVariable": "{ userId: \"as9233Qz\", property1: \"value1\"}",
 					"finishMode": "withSuccess",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		}
 	],
@@ -482,8 +497,8 @@
 		}
 	],
 	"viewport": {
-		"x": -552,
-		"y": -17,
+		"x": -158,
+		"y": -22,
 		"zoom": 1
 	}
 }
