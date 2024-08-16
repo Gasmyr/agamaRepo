@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {
+      "id": "startNode-d3a1b9ad-4c70-473f-9ad6-bfb8d19c378f",
+      "type": "startNode",
+      "sourcePosition": "right",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "data": {
+        "id": "startNode-d3a1b9ad-4c70-473f-9ad6-bfb8d19c378f",
+        "type": "startNode",
+        "position": {
+          "x": 30,
+          "y": 40
+        },
+        "agamaData": {
+          "isTopLevelFlow": true,
+          "basepath": "",
+          "configParams": "{}",
+          "nodeIcon": "material-symbols:line-start-square",
+          "timeout": "",
+          "inputs": "",
+          "configs": "",
+          "flowname": "org.gluu.testing.newDesign",
+          "displayName": "Design",
+          "creationDate": "16/08/2024",
+          "hasComment": true,
+          "comment": ""
+        }
+      }
+    }
+  ]
+}
