@@ -1,2 +1,12 @@
 Flow org.gluu.testing.newDesign
      Basepath ""
+Log "@info LOG ONE"
+username = "Gasmyr"
+When 
+     Call Parser#count username
+Otherwise
+     Log "@info Condition failed"
+Log "@info NextOne"
+Log "@info NextTwo"
+it_pqhud = {success:true, data: { userId: "as9233Qz", property1: "value1"}}
+Finish it_pqhud
