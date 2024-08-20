@@ -18,7 +18,8 @@
             "org.gluu.agama.passkey.nickname.12.08.2024": {},
             "com.testing.newflowupdated": {},
             "com.gasmyr.oldedflow": {},
-            "org.gluu.testing.newDesign": {}
+            "org.gluu.testing.newDesign": {},
+            "org.gluu.agama.register": {}
         },
         "name": "NewFlowDesignproject"
     }
