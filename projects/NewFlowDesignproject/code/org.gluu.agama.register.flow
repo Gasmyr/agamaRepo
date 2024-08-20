@@ -1,0 +1,16 @@
+Flow org.gluu.agama.register
+     Basepath ""
+Log "@info Add some log message here."
+someValue = aVariable
+Repeat 5 times max
+     // Retrieve user phone number from UI.
+     rrfResult = RRF "aTemplate.ftlh" anArg
+     // Log the phone number
+     Log "@info Add some log message here."
+     // Register user phone number
+     Call someService doSomething 
+     it_sbxmi = {success:true, data: { userId: uid }}
+     Finish it_sbxmi
+// Max number of attemps has been reached.
+Log "@info Add some log message here."
+someValue = aVariable
