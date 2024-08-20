@@ -17,8 +17,7 @@
         "configs": {
             "com.testing.newflowupdated": {},
             "com.gasmyr.oldedflow": {},
-            "org.gluu.testing.newDesign": {},
-            "org.gluu.agama.register": {}
+            "org.gluu.testing.newDesign": {}
         },
         "name": "NewFlowDesignproject"
     }
