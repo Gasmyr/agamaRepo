@@ -135,7 +135,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "rrfNode-abb50b9f-20f2-4c0a-b7f7-1735cb1d936f",
@@ -163,7 +164,7 @@
 					"descColor": "",
 					"displayName": "RRF",
 					"hasComment": true,
-					"comment": "Retrieve user phone number from UI.",
+					"comment": "RetrieveÂ userÂ phoneÂ numberÂ fromÂ UI.",
 					"previousNodeId": "repeatNode-0f186ad4-0098-4ff7-b640-801bf1b3f9e0",
 					"arguments": "anArg"
 				}
@@ -197,7 +198,7 @@
 					"descColor": "",
 					"displayName": "LOG",
 					"hasComment": true,
-					"comment": "Log the phone number"
+					"comment": "LogÂ theÂ phoneÂ number"
 				}
 			},
 			"measured": {
@@ -233,7 +234,7 @@
 					"descColor": "",
 					"displayName": "CALL",
 					"hasComment": true,
-					"comment": "Register user phone number"
+					"comment": "RegisterÂ userÂ phoneÂ number"
 				}
 			},
 			"measured": {
@@ -299,7 +300,7 @@
 					"descColor": "",
 					"displayName": "LOG",
 					"hasComment": true,
-					"comment": "Max number of attemps has been reached.",
+					"comment": "MaxÂ numberÂ ofÂ attempsÂ hasÂ beenÂ reached.",
 					"previousNodeId": "repeatNode-0f186ad4-0098-4ff7-b640-801bf1b3f9e0"
 				}
 			},
@@ -337,13 +338,14 @@
 					"descColor": "",
 					"displayName": "ASSIGNMENT",
 					"hasComment": false,
-					"comment": ""
+					"comment": "last assignment"
 				}
 			},
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -520,8 +522,8 @@
 		}
 	],
 	"viewport": {
-		"x": 45.48738677304027,
-		"y": 107.3634414240164,
-		"zoom": 0.7169776240079136
+		"x": 207.50604278470627,
+		"y": 151.04396286450955,
+		"zoom": 0.5
 	}
 }
