@@ -21,5 +21,21 @@
             "org.gluu.agama.sms.main": {}
         },
         "name": "NewFlowDesignproject"
+    },
+    "MyNewFlow": {
+        "projectName": "MyNewFlow",
+        "description": "My Custom id flow",
+        "type": "community",
+        "author": "Gasmyr",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/Gasmyr/agamaRepo",
+        "githubUri": "https://github.com/Gasmyr/agamaRepo",
+        "license": "apache-2.0",
+        "lastUpdated": "1752582905129",
+        "tags": [
+            "openid-connect"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
