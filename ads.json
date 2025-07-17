@@ -36,6 +36,9 @@
             "openid-connect"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "com.coudia.otp": {}
+        },
+        "name": "MyNewFlow"
     }
 }
