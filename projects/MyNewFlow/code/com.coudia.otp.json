@@ -32,12 +32,67 @@
 				}
 			},
 			"measured": {
+				"width": 168,
+				"height": 120
+			},
+			"selected": false
+		},
+		{
+			"id": "logNode-6b275911-640b-4f7f-8a2d-6534493d1e1e",
+			"type": "logNode",
+			"position": {
+				"x": 280,
+				"y": 30
+			},
+			"data": {
+				"id": "logNode-6b275911-640b-4f7f-8a2d-6534493d1e1e",
+				"type": "logNode",
+				"position": {
+					"x": 280,
+					"y": 30
+				},
+				"previousNodeId": "startNode-f595e879-069b-4eef-8a42-e462eba1df75",
+				"agamaData": {
+					"logMessage": "\"Phone number registration done.\"",
+					"logLevel": "info",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": ""
+				}
+			},
+			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true,
+			"dragging": false
 		}
 	],
-	"edges": [],
+	"edges": [
+		{
+			"id": "startNode-f595e879-069b-4eef-8a42-e462eba1df75-logNode-6b275911-640b-4f7f-8a2d-6534493d1e1e",
+			"type": "default",
+			"source": "startNode-f595e879-069b-4eef-8a42-e462eba1df75",
+			"target": "logNode-6b275911-640b-4f7f-8a2d-6534493d1e1e",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-f595e879-069b-4eef-8a42-e462eba1df75"
+		}
+	],
 	"viewport": {
 		"x": 0,
 		"y": 0,
