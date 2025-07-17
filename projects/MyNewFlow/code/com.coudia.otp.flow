@@ -1,2 +1,3 @@
 Flow com.coudia.otp
      Basepath ""
+Log "@info Phone number registration done."
